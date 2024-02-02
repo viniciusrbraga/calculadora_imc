@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo {
+    margin-top: 128px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.campos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px
+}
+
+.resposta {
+    margin-left: 96px;
+    padding: 32px 0px 40px;
+    /* margin-bottom: 80px; */
+}
